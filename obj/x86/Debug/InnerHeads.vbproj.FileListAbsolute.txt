@@ -1,0 +1,62 @@
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormCreateJob.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormMain.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.Resources.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.vbproj.GenerateResource.Cache
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.vbproj.ResolveComReference.cache
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormCandidate.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormSearchJob.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormApplications.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormProcess.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormChangeJobID.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormModifyPositions.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormTop.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormAnalytics.resources
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.exe.config
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.exe.manifest
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.application
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.exe
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.pdb
+E:\MyProject\IH\InnerHeads\bin\x86\Debug\Recruitment Tracking System.xml
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.exe.licenses
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.TrustInfo.xml
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.exe.manifest
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.application
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.exe
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.xml
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\Recruitment Tracking System.pdb
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.FormDataBackup.resources
+E:\MyProject\IH\InnerHeads\obj\x86\Debug\InnerHeads.vbprojResolveAssemblyReference.cache
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.exe.config
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.exe.manifest
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.application
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.exe
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.pdb
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Recruitment Tracking System.xml
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.vbproj.ResolveComReference.cache
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormApplications.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormCandidate.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormCreateJob.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormDataBackup.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormMain.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormChangeJobID.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormModifyPositions.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormSearchJob.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormAnalytics.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormTop.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.Resources.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormProcess.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.vbproj.GenerateResource.Cache
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.exe.licenses
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.TrustInfo.xml
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.exe.manifest
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.application
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.exe
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.xml
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\Recruitment Tracking System.pdb
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormCTCCalculator.resources
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Microsoft.WindowsAPICodePack.xml
+E:\MyProject\IH\InnerHeads - SQL\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.FormPwd.resources
+E:\MyProject\IH\InnerHeads - SQL\obj\x86\Debug\InnerHeads.vbprojResolveAssemblyReference.cache

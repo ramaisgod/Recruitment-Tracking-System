@@ -1,0 +1,686 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Recruitment Tracking System
+</name>
+</assembly>
+<members>
+<member name="T:InnerHeads.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.addnew">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.Budget">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.clear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.download">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.excel_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.ExportToXL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.import">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.Mail_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.search_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:InnerHeads.My.Resources.Resources.search2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQL">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQL.ApplicationTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQL.ApplicationTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQL.ApplicationTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQLTableAdapters.ApplicationTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_ApplicationTable_SQL,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_ApplicationTable_SQL,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_ApplicationTable_SQL,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_ApplicationTable_SQL)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_ApplicationTable_SQLTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyList">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyList.CompanyListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyList.CompanyListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyList.CompanyListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyListTableAdapters.CompanyListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_CompanyList,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_CompanyList,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_CompanyList,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_CompanyList)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_CompanyListTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReason">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReason.DeclineReasonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReason.DeclineReasonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReason.DeclineReasonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReasonTableAdapters.DeclineReasonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_DeclineReason,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_DeclineReason,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_DeclineReason,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_DeclineReason)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_DeclineReasonTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidate">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidate.JobTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidate.JobTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidate.JobTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.JobTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_JobTable_FormCandidate,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_JobTable_FormCandidate,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_JobTable_FormCandidate,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_JobTable_FormCandidate)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormCandidateTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJob">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJob.JobTableDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJob.JobTableRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJob.JobTableRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.JobTableTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_JobTable_FormSearchJob,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_JobTable_FormSearchJob,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_JobTable_FormSearchJob,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_JobTable_FormSearchJob)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_JobTable_FormSearchJobTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReason">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReason.OfferDeclineReasonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReason.OfferDeclineReasonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReason.OfferDeclineReasonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.OfferDeclineReasonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_OfferDeclineReason,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_OfferDeclineReason,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_OfferDeclineReason,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_OfferDeclineReason)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_OfferDeclineReasonTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_Recruiter">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_Recruiter.RecruiterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_Recruiter.RecruiterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_Recruiter.RecruiterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RecruiterTableAdapters.RecruiterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_Recruiter,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_Recruiter,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_Recruiter,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_Recruiter)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RecruiterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedBy">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedBy.RejectedByDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedBy.RejectedByRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedBy.RejectedByRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedByTableAdapters.RejectedByTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_RejectedBy,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_RejectedBy,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_RejectedBy,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_RejectedBy)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_RejectedByTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSource">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSource.ResumeSourceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSource.ResumeSourceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSource.ResumeSourceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSourceTableAdapters.ResumeSourceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.UpdateUpdatedRows(InnerHeads.DS_SQL_ResumeSource,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.UpdateInsertedRows(InnerHeads.DS_SQL_ResumeSource,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.UpdateDeletedRows(InnerHeads.DS_SQL_ResumeSource,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.UpdateAll(InnerHeads.DS_SQL_ResumeSource)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:InnerHeads.DS_SQL_ResumeSourceTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

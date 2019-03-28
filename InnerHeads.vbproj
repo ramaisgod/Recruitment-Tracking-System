@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{827931C7-A971-40CB-8734-D5C96F64A248}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>InnerHeads.My.MyApplication</StartupObject>
+    <RootNamespace>InnerHeads</RootNamespace>
+    <AssemblyName>Recruitment Tracking System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>E:\MyProject\RTS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <MinimumRequiredVersion>1.0.0.3</MinimumRequiredVersion>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Recruitment Tracking System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Recruitment Tracking System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Recruitment Tracking System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Recruitment Tracking System.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7BBB6AAE75C743B6A7CA0D082F9C51401B7A9D08</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>InnerHeads_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsAPICodePack-Core.1.1.1\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\WindowsAPICodePack-Shell.1.1.1\lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.IO" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DS_ApplicationTable_SQL.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_ApplicationTable_SQL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_CompanyList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_CompanyList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_DeclineReason.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_DeclineReason.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_JobTable_FormCandidate.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_JobTable_FormCandidate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_JobTable_FormSearchJob.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_JobTable_FormSearchJob.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_OfferDeclineReason.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_OfferDeclineReason.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_Recruiter.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_Recruiter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_RejectedBy.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_RejectedBy.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_SQL_ResumeSource.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_SQL_ResumeSource.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplications.Designer.vb">
+      <DependentUpon>FormApplications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormApplications.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCandidate.Designer.vb">
+      <DependentUpon>FormCandidate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCandidate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreateJob.Designer.vb">
+      <DependentUpon>FormCreateJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreateJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCTCCalculator.Designer.vb">
+      <DependentUpon>FormCTCCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCTCCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDataBackup.Designer.vb">
+      <DependentUpon>FormDataBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDataBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.vb">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChangeJobID.Designer.vb">
+      <DependentUpon>FormChangeJobID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormChangeJobID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModifyPositions.Designer.vb">
+      <DependentUpon>FormModifyPositions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormModifyPositions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPwd.Designer.vb">
+      <DependentUpon>FormPwd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormPwd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchJob.Designer.vb">
+      <DependentUpon>FormSearchJob.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchJob.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAnalytics.Designer.vb">
+      <DependentUpon>FormAnalytics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAnalytics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTop.Designer.vb">
+      <DependentUpon>FormTop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormTop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FormProcess.Designer.vb">
+      <DependentUpon>FormProcess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormProcess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormApplications.resx">
+      <DependentUpon>FormApplications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCandidate.resx">
+      <DependentUpon>FormCandidate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCreateJob.resx">
+      <DependentUpon>FormCreateJob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCTCCalculator.resx">
+      <DependentUpon>FormCTCCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDataBackup.resx">
+      <DependentUpon>FormDataBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChangeJobID.resx">
+      <DependentUpon>FormChangeJobID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModifyPositions.resx">
+      <DependentUpon>FormModifyPositions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPwd.resx">
+      <DependentUpon>FormPwd.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchJob.resx">
+      <DependentUpon>FormSearchJob.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAnalytics.resx">
+      <DependentUpon>FormAnalytics.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTop.resx">
+      <DependentUpon>FormTop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProcess.resx">
+      <DependentUpon>FormProcess.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS_ApplicationTable_SQL.xsc">
+      <DependentUpon>DS_ApplicationTable_SQL.xsd</DependentUpon>
+    </None>
+    <None Include="DS_ApplicationTable_SQL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_ApplicationTable_SQL.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_ApplicationTable_SQL.xss">
+      <DependentUpon>DS_ApplicationTable_SQL.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_CompanyList.xsc">
+      <DependentUpon>DS_SQL_CompanyList.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_CompanyList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_CompanyList.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_CompanyList.xss">
+      <DependentUpon>DS_SQL_CompanyList.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_DeclineReason.xsc">
+      <DependentUpon>DS_SQL_DeclineReason.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_DeclineReason.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_DeclineReason.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_DeclineReason.xss">
+      <DependentUpon>DS_SQL_DeclineReason.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_JobTable_FormCandidate.xsc">
+      <DependentUpon>DS_SQL_JobTable_FormCandidate.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_JobTable_FormCandidate.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_JobTable_FormCandidate.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_JobTable_FormCandidate.xss">
+      <DependentUpon>DS_SQL_JobTable_FormCandidate.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_JobTable_FormSearchJob.xsc">
+      <DependentUpon>DS_SQL_JobTable_FormSearchJob.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_JobTable_FormSearchJob.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_JobTable_FormSearchJob.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_JobTable_FormSearchJob.xss">
+      <DependentUpon>DS_SQL_JobTable_FormSearchJob.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_OfferDeclineReason.xsc">
+      <DependentUpon>DS_SQL_OfferDeclineReason.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_OfferDeclineReason.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_OfferDeclineReason.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_OfferDeclineReason.xss">
+      <DependentUpon>DS_SQL_OfferDeclineReason.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_Recruiter.xsc">
+      <DependentUpon>DS_SQL_Recruiter.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_Recruiter.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_Recruiter.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_Recruiter.xss">
+      <DependentUpon>DS_SQL_Recruiter.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_RejectedBy.xsc">
+      <DependentUpon>DS_SQL_RejectedBy.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_RejectedBy.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_RejectedBy.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_RejectedBy.xss">
+      <DependentUpon>DS_SQL_RejectedBy.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_ResumeSource.xsc">
+      <DependentUpon>DS_SQL_ResumeSource.xsd</DependentUpon>
+    </None>
+    <None Include="DS_SQL_ResumeSource.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_SQL_ResumeSource.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_SQL_ResumeSource.xss">
+      <DependentUpon>DS_SQL_ResumeSource.xsd</DependentUpon>
+    </None>
+    <None Include="InnerHeads_1_TemporaryKey.pfx" />
+    <None Include="InnerHeads_2_TemporaryKey.pfx" />
+    <None Include="InnerHeads_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Outlook">
+      <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\search-icon.png" />
+    <None Include="Images\save.png" />
+    <None Include="Images\addnew.png" />
+    <None Include="Images\close.png" />
+    <None Include="Images\clear.png" />
+    <None Include="Images\new.png" />
+    <None Include="Images\refresh.png" />
+    <None Include="Images\import.png" />
+    <None Include="Images\download.png" />
+    <None Include="Images\excel_icon.png" />
+    <None Include="Images\ExportToXL.png" />
+    <None Include="Images\Mail-icon.png" />
+    <None Include="Images\Budget.png" />
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Recruitment Tracking System.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Recruitment Tracking System.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
